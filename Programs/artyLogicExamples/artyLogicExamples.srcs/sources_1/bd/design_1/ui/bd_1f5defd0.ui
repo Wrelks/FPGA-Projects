@@ -1,0 +1,36 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.353552",
+   "Default View_TopLeft":"-14,-789",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace port diff_clock_rtl -pg 1 -lvl 0 -x -40 -y 40 -defaultsOSRD
+preplace port reset -pg 1 -lvl 0 -x -40 -y 180 -defaultsOSRD
+preplace port reset_0 -pg 1 -lvl 0 -x -40 -y -20 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 1 -x 240 -y -110 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 2 -x 690 -y -120 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 1 -x 240 -y 290 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 1 -x 240 -y 50 -defaultsOSRD
+preplace inst rst_clk_wiz_1_100M -pg 1 -lvl 2 -x 690 -y 60 -defaultsOSRD
+preplace inst reset_inv_0 -pg 1 -lvl 1 -x 240 -y 180 -defaultsOSRD
+preplace netloc microblaze_0_Clk 1 0 2 0 -200 500
+preplace netloc clk_wiz_1_locked 1 1 1 490 60n
+preplace netloc rst_clk_wiz_1_100M_mb_reset 1 0 3 -10 120 490 160 860
+preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 1 2 510 -40 870J
+preplace netloc mdm_1_debug_sys_rst 1 1 1 510 80n
+preplace netloc reset_1 1 0 1 NJ 180
+preplace netloc reset_inv_0_Res 1 0 2 0 360 490J
+preplace netloc reset_0_1 1 0 2 NJ -20 510J
+preplace netloc microblaze_0_dlmb_1 1 1 1 480 -150n
+preplace netloc microblaze_0_ilmb_1 1 1 1 490 -130n
+preplace netloc microblaze_0_debug 1 0 2 -20 370 480J
+preplace netloc diff_clock_rtl_1 1 0 1 NJ 40
+levelinfo -pg 1 -40 240 690 890
+pagesize -pg 1 -db -bbox -sgen -170 -210 890 380
+"
+}
+{
+   "da_board_cnt":"3",
+   "da_mb_cnt":"2"
+}

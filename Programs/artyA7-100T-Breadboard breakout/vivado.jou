@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Jul  4 19:34:17 2021
+# Process ID: 8528
+# Current directory: C:/Users/micro/OneDrive/Desktop/fpga/FPGA/artyA7-100T-Breadboard breakout
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6392 C:\Users\micro\OneDrive\Desktop\fpga\FPGA\artyA7-100T-Breadboard breakout\artyA7-100T-Breadboard breakout.xpr
+# Log file: C:/Users/micro/OneDrive/Desktop/fpga/FPGA/artyA7-100T-Breadboard breakout/vivado.log
+# Journal file: C:/Users/micro/OneDrive/Desktop/fpga/FPGA/artyA7-100T-Breadboard breakout\vivado.jou
+#-----------------------------------------------------------
+sstart_guiopen_project {C:/Users/micro/OneDrive/Desktop/fpga/FPGA/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+launch_runs impl_1 -jobs 3
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/micro/OneDrive/Desktop/fpga/FPGA/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+open_run impl_1
