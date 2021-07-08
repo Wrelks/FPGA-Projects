@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date         : Tue Jul  6 06:40:20 2021
+| Date         : Tue Jul  6 08:54:55 2021
 | Host         : DESKTOP-0VCQDTO running 64-bit major release  (build 9200)
 | Command      : report_drc -file top_drc_opted.rpt -pb top_drc_opted.pb -rpx top_drc_opted.rpx
 | Design       : top
@@ -92,81 +92,81 @@ Related violations: <none>
 
 IOSR-1#1 Warning
 IOB set reset sharing  
-IO dip[10] connects to flops which have these memory[141][7]_i_1_n_0, memory[143][7]_i_1_n_0, memory[145][7]_i_1_n_0,
-memory[146][6]_i_1_n_0, memory[147][7]_i_1_n_0, memory[148][6]_i_1_n_0,
-memory[14][6]_i_1_n_0, memory[150][6]_i_1_n_0, memory[152][6]_i_1_n_0,
-memory[155][7]_i_1_n_0, memory[156][6]_i_1_n_0, memory[15][7]_i_1_n_0,
-memory[161][7]_i_1_n_0, memory[163][7]_i_1_n_0, memory[164][6]_i_1_n_0
+IO dip[10] connects to flops which have these memory[107][7]_i_1_n_0, memory[109][7]_i_1_n_0, memory[10][6]_i_1_n_0,
+memory[110][6]_i_1_n_0, memory[111][7]_i_1_n_0, memory[112][6]_i_1_n_0,
+memory[113][7]_i_1_n_0, memory[114][6]_i_1_n_0, memory[115][7]_i_1_n_0,
+memory[116][6]_i_1_n_0, memory[117][7]_i_1_n_0, memory[118][6]_i_1_n_0,
+memory[119][7]_i_1_n_0, memory[120][6]_i_1_n_0, memory[121][7]_i_1_n_0
  (the first 15 of 256 listed) set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
 Related violations: <none>
 
 IOSR-1#2 Warning
 IOB set reset sharing  
-IO dip[11] connects to flops which have these memory[141][7]_i_1_n_0, memory[143][7]_i_1_n_0, memory[145][7]_i_1_n_0,
-memory[146][6]_i_1_n_0, memory[147][7]_i_1_n_0, memory[148][6]_i_1_n_0,
-memory[14][6]_i_1_n_0, memory[150][6]_i_1_n_0, memory[152][6]_i_1_n_0,
-memory[155][7]_i_1_n_0, memory[156][6]_i_1_n_0, memory[15][7]_i_1_n_0,
-memory[161][7]_i_1_n_0, memory[163][7]_i_1_n_0, memory[164][6]_i_1_n_0
+IO dip[11] connects to flops which have these memory[107][7]_i_1_n_0, memory[109][7]_i_1_n_0, memory[10][6]_i_1_n_0,
+memory[110][6]_i_1_n_0, memory[111][7]_i_1_n_0, memory[112][6]_i_1_n_0,
+memory[113][7]_i_1_n_0, memory[114][6]_i_1_n_0, memory[115][7]_i_1_n_0,
+memory[116][6]_i_1_n_0, memory[117][7]_i_1_n_0, memory[118][6]_i_1_n_0,
+memory[119][7]_i_1_n_0, memory[120][6]_i_1_n_0, memory[121][7]_i_1_n_0
  (the first 15 of 256 listed) set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
 Related violations: <none>
 
 IOSR-1#3 Warning
 IOB set reset sharing  
-IO dip[12] connects to flops which have these memory[141][7]_i_1_n_0, memory[143][7]_i_1_n_0, memory[145][7]_i_1_n_0,
-memory[146][6]_i_1_n_0, memory[147][7]_i_1_n_0, memory[148][6]_i_1_n_0,
-memory[14][6]_i_1_n_0, memory[150][6]_i_1_n_0, memory[152][6]_i_1_n_0,
-memory[155][7]_i_1_n_0, memory[156][6]_i_1_n_0, memory[15][7]_i_1_n_0,
-memory[161][7]_i_1_n_0, memory[163][7]_i_1_n_0, memory[164][6]_i_1_n_0
+IO dip[12] connects to flops which have these memory[107][7]_i_1_n_0, memory[109][7]_i_1_n_0, memory[10][6]_i_1_n_0,
+memory[110][6]_i_1_n_0, memory[111][7]_i_1_n_0, memory[112][6]_i_1_n_0,
+memory[113][7]_i_1_n_0, memory[114][6]_i_1_n_0, memory[115][7]_i_1_n_0,
+memory[116][6]_i_1_n_0, memory[117][7]_i_1_n_0, memory[118][6]_i_1_n_0,
+memory[119][7]_i_1_n_0, memory[120][6]_i_1_n_0, memory[121][7]_i_1_n_0
  (the first 15 of 256 listed) set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
 Related violations: <none>
 
 IOSR-1#4 Warning
 IOB set reset sharing  
-IO dip[13] connects to flops which have these memory[141][7]_i_1_n_0, memory[143][7]_i_1_n_0, memory[145][7]_i_1_n_0,
-memory[146][6]_i_1_n_0, memory[147][7]_i_1_n_0, memory[148][6]_i_1_n_0,
-memory[14][6]_i_1_n_0, memory[150][6]_i_1_n_0, memory[152][6]_i_1_n_0,
-memory[155][7]_i_1_n_0, memory[156][6]_i_1_n_0, memory[15][7]_i_1_n_0,
-memory[161][7]_i_1_n_0, memory[163][7]_i_1_n_0, memory[164][6]_i_1_n_0
+IO dip[13] connects to flops which have these memory[107][7]_i_1_n_0, memory[109][7]_i_1_n_0, memory[10][6]_i_1_n_0,
+memory[110][6]_i_1_n_0, memory[111][7]_i_1_n_0, memory[112][6]_i_1_n_0,
+memory[113][7]_i_1_n_0, memory[114][6]_i_1_n_0, memory[115][7]_i_1_n_0,
+memory[116][6]_i_1_n_0, memory[117][7]_i_1_n_0, memory[118][6]_i_1_n_0,
+memory[119][7]_i_1_n_0, memory[120][6]_i_1_n_0, memory[121][7]_i_1_n_0
  (the first 15 of 256 listed) set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
 Related violations: <none>
 
 IOSR-1#5 Warning
 IOB set reset sharing  
-IO dip[14] connects to flops which have these memory[141][7]_i_1_n_0, memory[143][7]_i_1_n_0, memory[145][7]_i_1_n_0,
-memory[146][6]_i_1_n_0, memory[147][7]_i_1_n_0, memory[148][6]_i_1_n_0,
-memory[14][6]_i_1_n_0, memory[150][6]_i_1_n_0, memory[152][6]_i_1_n_0,
-memory[155][7]_i_1_n_0, memory[156][6]_i_1_n_0, memory[15][7]_i_1_n_0,
-memory[161][7]_i_1_n_0, memory[163][7]_i_1_n_0, memory[164][6]_i_1_n_0
+IO dip[14] connects to flops which have these memory[107][7]_i_1_n_0, memory[109][7]_i_1_n_0, memory[10][6]_i_1_n_0,
+memory[110][6]_i_1_n_0, memory[111][7]_i_1_n_0, memory[112][6]_i_1_n_0,
+memory[113][7]_i_1_n_0, memory[114][6]_i_1_n_0, memory[115][7]_i_1_n_0,
+memory[116][6]_i_1_n_0, memory[117][7]_i_1_n_0, memory[118][6]_i_1_n_0,
+memory[119][7]_i_1_n_0, memory[120][6]_i_1_n_0, memory[121][7]_i_1_n_0
  (the first 15 of 256 listed) set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
 Related violations: <none>
 
 IOSR-1#6 Warning
 IOB set reset sharing  
-IO dip[15] connects to flops which have these memory[141][7]_i_1_n_0, memory[143][7]_i_1_n_0, memory[145][7]_i_1_n_0,
-memory[147][7]_i_1_n_0, memory[149][7]_i_1_n_0, memory[151][7]_i_1_n_0,
-memory[153][7]_i_1_n_0, memory[155][7]_i_1_n_0, memory[157][7]_i_1_n_0,
-memory[159][7]_i_1_n_0, memory[15][7]_i_1_n_0, memory[161][7]_i_1_n_0,
-memory[163][7]_i_1_n_0, memory[173][7]_i_1_n_0, memory[179][7]_i_1_n_0
+IO dip[15] connects to flops which have these memory[107][7]_i_1_n_0, memory[109][7]_i_1_n_0, memory[111][7]_i_1_n_0,
+memory[113][7]_i_1_n_0, memory[115][7]_i_1_n_0, memory[117][7]_i_1_n_0,
+memory[119][7]_i_1_n_0, memory[11][7]_i_1_n_0, memory[121][7]_i_1_n_0,
+memory[123][7]_i_1_n_0, memory[125][7]_i_1_n_0, memory[127][7]_i_1_n_0,
+memory[133][7]_i_1_n_0, memory[143][7]_i_1_n_0, memory[153][7]_i_1_n_0
  (the first 15 of 128 listed) set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
 Related violations: <none>
 
 IOSR-1#7 Warning
 IOB set reset sharing  
-IO dip[8] connects to flops which have these memory[141][7]_i_1_n_0, memory[143][7]_i_1_n_0, memory[145][7]_i_1_n_0,
-memory[146][6]_i_1_n_0, memory[147][7]_i_1_n_0, memory[148][6]_i_1_n_0,
-memory[14][6]_i_1_n_0, memory[150][6]_i_1_n_0, memory[152][6]_i_1_n_0,
-memory[155][7]_i_1_n_0, memory[156][6]_i_1_n_0, memory[15][7]_i_1_n_0,
-memory[161][7]_i_1_n_0, memory[163][7]_i_1_n_0, memory[164][6]_i_1_n_0
+IO dip[8] connects to flops which have these memory[107][7]_i_1_n_0, memory[109][7]_i_1_n_0, memory[10][6]_i_1_n_0,
+memory[110][6]_i_1_n_0, memory[111][7]_i_1_n_0, memory[112][6]_i_1_n_0,
+memory[113][7]_i_1_n_0, memory[114][6]_i_1_n_0, memory[115][7]_i_1_n_0,
+memory[116][6]_i_1_n_0, memory[117][7]_i_1_n_0, memory[118][6]_i_1_n_0,
+memory[119][7]_i_1_n_0, memory[120][6]_i_1_n_0, memory[121][7]_i_1_n_0
  (the first 15 of 256 listed) set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
 Related violations: <none>
 
 IOSR-1#8 Warning
 IOB set reset sharing  
-IO dip[9] connects to flops which have these memory[141][7]_i_1_n_0, memory[143][7]_i_1_n_0, memory[145][7]_i_1_n_0,
-memory[146][6]_i_1_n_0, memory[147][7]_i_1_n_0, memory[148][6]_i_1_n_0,
-memory[14][6]_i_1_n_0, memory[150][6]_i_1_n_0, memory[152][6]_i_1_n_0,
-memory[155][7]_i_1_n_0, memory[156][6]_i_1_n_0, memory[15][7]_i_1_n_0,
-memory[161][7]_i_1_n_0, memory[163][7]_i_1_n_0, memory[164][6]_i_1_n_0
+IO dip[9] connects to flops which have these memory[107][7]_i_1_n_0, memory[109][7]_i_1_n_0, memory[10][6]_i_1_n_0,
+memory[110][6]_i_1_n_0, memory[111][7]_i_1_n_0, memory[112][6]_i_1_n_0,
+memory[113][7]_i_1_n_0, memory[114][6]_i_1_n_0, memory[115][7]_i_1_n_0,
+memory[116][6]_i_1_n_0, memory[117][7]_i_1_n_0, memory[118][6]_i_1_n_0,
+memory[119][7]_i_1_n_0, memory[120][6]_i_1_n_0, memory[121][7]_i_1_n_0
  (the first 15 of 256 listed) set/reset signals.  For optimal IOB flop packing there should be only one set/reset signal coming into the IOB.
 Related violations: <none>
 

@@ -1,0 +1,58 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Jul  6 06:54:24 2021
+| Host         : DESKTOP-0VCQDTO running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'pmodDemo_rst_clk_wiz_1_100M_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of pmodDemo_rst_clk_wiz_1_100M_0 (xilinx.com:ip:proc_sys_reset:5.0 (Rev. 13)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Jul  6 06:54:24 2021
+| Host         : DESKTOP-0VCQDTO running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'pmodDemo_clk_wiz_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of pmodDemo_clk_wiz_1_0 (xilinx.com:ip:clk_wiz:6.0 (Rev. 6)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Jul  6 06:54:24 2021
+| Host         : DESKTOP-0VCQDTO running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'pmodDemo_PmodSD_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of pmodDemo_PmodSD_0_0 (digilentinc.com:IP:PmodSD:1.0 (Rev. 14)) to Vivado generation flows.
+

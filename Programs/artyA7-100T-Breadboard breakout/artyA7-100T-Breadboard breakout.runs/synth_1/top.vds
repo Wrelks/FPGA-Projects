@@ -2,8 +2,8 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Tue Jul  6 06:30:29 2021
-# Process ID: 10260
+# Start of session at: Tue Jul  6 08:43:01 2021
+# Process ID: 9456
 # Current directory: C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.runs/synth_1
 # Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
 # Log file: C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.runs/synth_1/top.vds
@@ -22,9 +22,9 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 5652
+INFO: [Synth 8-7075] Helper process launched with PID 1036
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1014.664 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1018.492 ; gain = 0.000
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.srcs/sources_1/new/top.sv:4]
 	Parameter DIV_BY bound to: 27'b101111101011110000100000000 
@@ -33,51 +33,75 @@ INFO: [Synth 8-6155] done synthesizing module 'pwm' (1#1) [C:/Users/micro/OneDri
 INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.srcs/sources_1/new/top.sv:119]
 INFO: [Synth 8-6155] done synthesizing module 'top' (2#1) [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.srcs/sources_1/new/top.sv:4]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:04:22 ; elapsed = 00:04:26 . Memory (MB): peak = 2320.566 ; gain = 1305.902
+Finished RTL Elaboration : Time (s): cpu = 00:04:21 ; elapsed = 00:04:24 . Memory (MB): peak = 2319.500 ; gain = 1301.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:04:40 ; elapsed = 00:04:45 . Memory (MB): peak = 2333.102 ; gain = 1318.438
+Finished Handling Custom Attributes : Time (s): cpu = 00:04:40 ; elapsed = 00:04:45 . Memory (MB): peak = 2319.500 ; gain = 1301.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:04:40 ; elapsed = 00:04:45 . Memory (MB): peak = 2333.102 ; gain = 1318.438
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:04:40 ; elapsed = 00:04:45 . Memory (MB): peak = 2319.500 ; gain = 1301.008
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2333.102 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2319.500 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
 Parsing XDC File [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.srcs/constrs_1/new/header.xdc]
+WARNING: [Vivado 12-584] No ports matched 'jd[0]'. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.srcs/constrs_1/new/header.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.srcs/constrs_1/new/header.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jd[1]'. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.srcs/constrs_1/new/header.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.srcs/constrs_1/new/header.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jd[2]'. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.srcs/constrs_1/new/header.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.srcs/constrs_1/new/header.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jd[3]'. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.srcs/constrs_1/new/header.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.srcs/constrs_1/new/header.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jd[4]'. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.srcs/constrs_1/new/header.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.srcs/constrs_1/new/header.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jd[5]'. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.srcs/constrs_1/new/header.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.srcs/constrs_1/new/header.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jd[6]'. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.srcs/constrs_1/new/header.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.srcs/constrs_1/new/header.xdc:79]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jd[7]'. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.srcs/constrs_1/new/header.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.srcs/constrs_1/new/header.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
 Finished Parsing XDC File [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.srcs/constrs_1/new/header.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.srcs/constrs_1/new/header.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.032 . Memory (MB): peak = 2333.102 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 2319.500 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.675 . Memory (MB): peak = 2333.102 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.676 . Memory (MB): peak = 2319.500 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:05:29 ; elapsed = 00:05:35 . Memory (MB): peak = 2333.102 ; gain = 1318.438
+Finished Constraint Validation : Time (s): cpu = 00:05:32 ; elapsed = 00:05:36 . Memory (MB): peak = 2319.500 ; gain = 1301.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:05:30 ; elapsed = 00:05:35 . Memory (MB): peak = 2333.102 ; gain = 1318.438
+Finished Loading Part and Timing Information : Time (s): cpu = 00:05:32 ; elapsed = 00:05:36 . Memory (MB): peak = 2319.500 ; gain = 1301.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:05:30 ; elapsed = 00:05:35 . Memory (MB): peak = 2333.102 ; gain = 1318.438
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:05:32 ; elapsed = 00:05:36 . Memory (MB): peak = 2319.500 ; gain = 1301.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:06:29 ; elapsed = 00:06:38 . Memory (MB): peak = 2333.102 ; gain = 1318.438
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:06:33 ; elapsed = 00:06:40 . Memory (MB): peak = 2319.500 ; gain = 1301.008
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-223] decloning instance 'pwm_led_r0' (pwm) to 'pwm_led_r1'
 INFO: [Synth 8-223] decloning instance 'pwm_led_r0' (pwm) to 'pwm_led_r2'
@@ -131,7 +155,7 @@ DSP Report: operator outWire0 is absorbed into DSP outWire0.
 DSP Report: Generating DSP outWire0, operation Mode is: A*B.
 DSP Report: operator outWire0 is absorbed into DSP outWire0.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:07:16 ; elapsed = 00:07:25 . Memory (MB): peak = 2333.102 ; gain = 1318.438
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:07:21 ; elapsed = 00:07:29 . Memory (MB): peak = 2319.500 ; gain = 1301.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -153,19 +177,19 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:07:30 ; elapsed = 00:07:39 . Memory (MB): peak = 2333.102 ; gain = 1318.438
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:07:36 ; elapsed = 00:07:44 . Memory (MB): peak = 2319.500 ; gain = 1301.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:07:46 ; elapsed = 00:07:55 . Memory (MB): peak = 2333.102 ; gain = 1318.438
+Finished Timing Optimization : Time (s): cpu = 00:07:52 ; elapsed = 00:08:00 . Memory (MB): peak = 2319.500 ; gain = 1301.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:07:48 ; elapsed = 00:07:58 . Memory (MB): peak = 2333.102 ; gain = 1318.438
+Finished Technology Mapping : Time (s): cpu = 00:07:54 ; elapsed = 00:08:02 . Memory (MB): peak = 2319.500 ; gain = 1301.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -183,37 +207,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:07:55 ; elapsed = 00:08:04 . Memory (MB): peak = 2333.102 ; gain = 1318.438
+Finished IO Insertion : Time (s): cpu = 00:08:01 ; elapsed = 00:08:09 . Memory (MB): peak = 2319.500 ; gain = 1301.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:07:55 ; elapsed = 00:08:04 . Memory (MB): peak = 2333.102 ; gain = 1318.438
+Finished Renaming Generated Instances : Time (s): cpu = 00:08:01 ; elapsed = 00:08:09 . Memory (MB): peak = 2319.500 ; gain = 1301.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:07:55 ; elapsed = 00:08:05 . Memory (MB): peak = 2333.102 ; gain = 1318.438
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:08:01 ; elapsed = 00:08:09 . Memory (MB): peak = 2319.500 ; gain = 1301.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:07:55 ; elapsed = 00:08:05 . Memory (MB): peak = 2333.102 ; gain = 1318.438
+Finished Renaming Generated Ports : Time (s): cpu = 00:08:01 ; elapsed = 00:08:09 . Memory (MB): peak = 2319.500 ; gain = 1301.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:07:55 ; elapsed = 00:08:05 . Memory (MB): peak = 2333.102 ; gain = 1318.438
+Finished Handling Custom Attributes : Time (s): cpu = 00:08:01 ; elapsed = 00:08:09 . Memory (MB): peak = 2319.500 ; gain = 1301.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:07:55 ; elapsed = 00:08:05 . Memory (MB): peak = 2333.102 ; gain = 1318.438
+Finished Renaming Generated Nets : Time (s): cpu = 00:08:01 ; elapsed = 00:08:09 . Memory (MB): peak = 2319.500 ; gain = 1301.008
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -246,26 +270,27 @@ Report Cell Usage:
 |15    |OBUF    |    40|
 +------+--------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:07:55 ; elapsed = 00:08:05 . Memory (MB): peak = 2333.102 ; gain = 1318.438
+Finished Writing Synthesis Report : Time (s): cpu = 00:08:01 ; elapsed = 00:08:09 . Memory (MB): peak = 2319.500 ; gain = 1301.008
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:02:44 ; elapsed = 00:07:36 . Memory (MB): peak = 2333.102 ; gain = 1318.438
-Synthesis Optimization Complete : Time (s): cpu = 00:07:56 ; elapsed = 00:08:06 . Memory (MB): peak = 2333.102 ; gain = 1318.438
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:48 ; elapsed = 00:07:38 . Memory (MB): peak = 2319.500 ; gain = 1301.008
+Synthesis Optimization Complete : Time (s): cpu = 00:08:02 ; elapsed = 00:08:10 . Memory (MB): peak = 2319.500 ; gain = 1301.008
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.077 . Memory (MB): peak = 2333.102 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 2319.500 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 355 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 WARNING: [Netlist 29-101] Netlist 'top' is not ideal for floorplanning, since the cellview 'top' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2333.102 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2319.500 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-32 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+32 Infos, 10 Warnings, 8 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:08:07 ; elapsed = 00:08:29 . Memory (MB): peak = 2333.102 ; gain = 1318.438
+synth_design: Time (s): cpu = 00:08:12 ; elapsed = 00:08:23 . Memory (MB): peak = 2319.500 ; gain = 1301.008
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
 INFO: [Common 17-1381] The checkpoint 'C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.runs/synth_1/top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Tue Jul  6 06:39:08 2021...
+INFO: [Common 17-206] Exiting Vivado at Tue Jul  6 08:51:33 2021...

@@ -2,8 +2,8 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Tue Jul  6 06:30:29 2021
-# Process ID: 10260
+# Start of session at: Tue Jul  6 08:43:01 2021
+# Process ID: 9456
 # Current directory: C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.runs/synth_1
 # Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
 # Log file: C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/artyA7-100T-Breadboard breakout/artyA7-100T-Breadboard breakout.runs/synth_1/top.vds

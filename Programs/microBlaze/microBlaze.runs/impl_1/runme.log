@@ -1,0 +1,447 @@
+
+*** Running vivado
+    with args -log PmodDemo_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source PmodDemo_wrapper.tcl -notrace
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source PmodDemo_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/diligentLib'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.cache/ip 
+add_files: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1015.680 ; gain = 0.000
+Command: link_design -top PmodDemo_wrapper -part xc7a100tcsg324-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_PmodSD_0_0/PmodDemo_PmodSD_0_0.dcp' for cell 'PmodDemo_i/PmodSD_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_axi_uartlite_0_0/PmodDemo_axi_uartlite_0_0.dcp' for cell 'PmodDemo_i/axi_uartlite_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_clk_wiz_0_0/PmodDemo_clk_wiz_0_0.dcp' for cell 'PmodDemo_i/clk_wiz_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_mdm_1_0/PmodDemo_mdm_1_0.dcp' for cell 'PmodDemo_i/mdm_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_microblaze_0_0/PmodDemo_microblaze_0_0.dcp' for cell 'PmodDemo_i/microblaze_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_microblaze_0_axi_intc_0/PmodDemo_microblaze_0_axi_intc_0.dcp' for cell 'PmodDemo_i/microblaze_0_axi_intc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_mig_7series_0_0/PmodDemo_mig_7series_0_0.dcp' for cell 'PmodDemo_i/mig_7series_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_reset_inv_0_0/PmodDemo_reset_inv_0_0.dcp' for cell 'PmodDemo_i/reset_inv_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_rst_clk_wiz_0_100M_0/PmodDemo_rst_clk_wiz_0_100M_0.dcp' for cell 'PmodDemo_i/rst_clk_wiz_0_100M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_rst_mig_7series_0_83M_0/PmodDemo_rst_mig_7series_0_83M_0.dcp' for cell 'PmodDemo_i/rst_mig_7series_0_83M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_xbar_0/PmodDemo_xbar_0.dcp' for cell 'PmodDemo_i/microblaze_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_ds_0/PmodDemo_auto_ds_0.dcp' for cell 'PmodDemo_i/microblaze_0_axi_periph/m00_couplers/auto_ds'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_pc_0/PmodDemo_auto_pc_0.dcp' for cell 'PmodDemo_i/microblaze_0_axi_periph/m00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_cc_0/PmodDemo_auto_cc_0.dcp' for cell 'PmodDemo_i/microblaze_0_axi_periph/m01_couplers/auto_cc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_ds_1/PmodDemo_auto_ds_1.dcp' for cell 'PmodDemo_i/microblaze_0_axi_periph/m02_couplers/auto_ds'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_pc_1/PmodDemo_auto_pc_1.dcp' for cell 'PmodDemo_i/microblaze_0_axi_periph/m02_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_ds_2/PmodDemo_auto_ds_2.dcp' for cell 'PmodDemo_i/microblaze_0_axi_periph/m03_couplers/auto_ds'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_pc_2/PmodDemo_auto_pc_2.dcp' for cell 'PmodDemo_i/microblaze_0_axi_periph/m03_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_ds_3/PmodDemo_auto_ds_3.dcp' for cell 'PmodDemo_i/microblaze_0_axi_periph/m04_couplers/auto_ds'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_pc_3/PmodDemo_auto_pc_3.dcp' for cell 'PmodDemo_i/microblaze_0_axi_periph/m04_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_pc_4/PmodDemo_auto_pc_4.dcp' for cell 'PmodDemo_i/microblaze_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_us_0/PmodDemo_auto_us_0.dcp' for cell 'PmodDemo_i/microblaze_0_axi_periph/s00_couplers/auto_us'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_us_1/PmodDemo_auto_us_1.dcp' for cell 'PmodDemo_i/microblaze_0_axi_periph/s01_couplers/auto_us'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_us_2/PmodDemo_auto_us_2.dcp' for cell 'PmodDemo_i/microblaze_0_axi_periph/s02_couplers/auto_us'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_dlmb_bram_if_cntlr_0/PmodDemo_dlmb_bram_if_cntlr_0.dcp' for cell 'PmodDemo_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_dlmb_v10_0/PmodDemo_dlmb_v10_0.dcp' for cell 'PmodDemo_i/microblaze_0_local_memory/dlmb_v10'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_ilmb_bram_if_cntlr_0/PmodDemo_ilmb_bram_if_cntlr_0.dcp' for cell 'PmodDemo_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_ilmb_v10_0/PmodDemo_ilmb_v10_0.dcp' for cell 'PmodDemo_i/microblaze_0_local_memory/ilmb_v10'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_lmb_bram_0/PmodDemo_lmb_bram_0.dcp' for cell 'PmodDemo_i/microblaze_0_local_memory/lmb_bram'
+Netlist sorting complete. Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1015.680 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1428 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_mig_7series_0_0/PmodDemo_mig_7series_0_0/user_design/constraints/PmodDemo_mig_7series_0_0.xdc] for cell 'PmodDemo_i/mig_7series_0'
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_mig_7series_0_0/PmodDemo_mig_7series_0_0/user_design/constraints/PmodDemo_mig_7series_0_0.xdc] for cell 'PmodDemo_i/mig_7series_0'
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_mig_7series_0_0/PmodDemo_mig_7series_0_0_board.xdc] for cell 'PmodDemo_i/mig_7series_0'
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_mig_7series_0_0/PmodDemo_mig_7series_0_0_board.xdc] for cell 'PmodDemo_i/mig_7series_0'
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_clk_wiz_0_0/PmodDemo_clk_wiz_0_0_board.xdc] for cell 'PmodDemo_i/clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_clk_wiz_0_0/PmodDemo_clk_wiz_0_0_board.xdc] for cell 'PmodDemo_i/clk_wiz_0/inst'
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_clk_wiz_0_0/PmodDemo_clk_wiz_0_0.xdc] for cell 'PmodDemo_i/clk_wiz_0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_clk_wiz_0_0/PmodDemo_clk_wiz_0_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_clk_wiz_0_0/PmodDemo_clk_wiz_0_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1659.383 ; gain = 573.031
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_clk_wiz_0_0/PmodDemo_clk_wiz_0_0.xdc] for cell 'PmodDemo_i/clk_wiz_0/inst'
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_microblaze_0_0/PmodDemo_microblaze_0_0.xdc] for cell 'PmodDemo_i/microblaze_0/U0'
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_microblaze_0_0/PmodDemo_microblaze_0_0.xdc] for cell 'PmodDemo_i/microblaze_0/U0'
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_microblaze_0_axi_intc_0/PmodDemo_microblaze_0_axi_intc_0.xdc] for cell 'PmodDemo_i/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_microblaze_0_axi_intc_0/PmodDemo_microblaze_0_axi_intc_0.xdc] for cell 'PmodDemo_i/microblaze_0_axi_intc/U0'
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_mdm_1_0/PmodDemo_mdm_1_0.xdc] for cell 'PmodDemo_i/mdm_1/U0'
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_mdm_1_0/PmodDemo_mdm_1_0.xdc] for cell 'PmodDemo_i/mdm_1/U0'
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_rst_clk_wiz_0_100M_0/PmodDemo_rst_clk_wiz_0_100M_0_board.xdc] for cell 'PmodDemo_i/rst_clk_wiz_0_100M/U0'
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_rst_clk_wiz_0_100M_0/PmodDemo_rst_clk_wiz_0_100M_0_board.xdc] for cell 'PmodDemo_i/rst_clk_wiz_0_100M/U0'
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_rst_clk_wiz_0_100M_0/PmodDemo_rst_clk_wiz_0_100M_0.xdc] for cell 'PmodDemo_i/rst_clk_wiz_0_100M/U0'
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_rst_clk_wiz_0_100M_0/PmodDemo_rst_clk_wiz_0_100M_0.xdc] for cell 'PmodDemo_i/rst_clk_wiz_0_100M/U0'
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_rst_mig_7series_0_83M_0/PmodDemo_rst_mig_7series_0_83M_0_board.xdc] for cell 'PmodDemo_i/rst_mig_7series_0_83M/U0'
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_rst_mig_7series_0_83M_0/PmodDemo_rst_mig_7series_0_83M_0_board.xdc] for cell 'PmodDemo_i/rst_mig_7series_0_83M/U0'
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_rst_mig_7series_0_83M_0/PmodDemo_rst_mig_7series_0_83M_0.xdc] for cell 'PmodDemo_i/rst_mig_7series_0_83M/U0'
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_rst_mig_7series_0_83M_0/PmodDemo_rst_mig_7series_0_83M_0.xdc] for cell 'PmodDemo_i/rst_mig_7series_0_83M/U0'
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_axi_uartlite_0_0/PmodDemo_axi_uartlite_0_0_board.xdc] for cell 'PmodDemo_i/axi_uartlite_0/U0'
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_axi_uartlite_0_0/PmodDemo_axi_uartlite_0_0_board.xdc] for cell 'PmodDemo_i/axi_uartlite_0/U0'
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_axi_uartlite_0_0/PmodDemo_axi_uartlite_0_0.xdc] for cell 'PmodDemo_i/axi_uartlite_0/U0'
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_axi_uartlite_0_0/PmodDemo_axi_uartlite_0_0.xdc] for cell 'PmodDemo_i/axi_uartlite_0/U0'
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_PmodSD_0_0/src/PmodSD_pmod_bridge_0_0/PmodSD_pmod_bridge_0_0_board.xdc] for cell 'PmodDemo_i/PmodSD_0/inst/pmod_bridge_0/inst'
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_PmodSD_0_0/src/PmodSD_pmod_bridge_0_0/PmodSD_pmod_bridge_0_0_board.xdc] for cell 'PmodDemo_i/PmodSD_0/inst/pmod_bridge_0/inst'
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_PmodSD_0_0/src/PmodSD_axi_quad_spi_0_0/PmodSD_axi_quad_spi_0_0_board.xdc] for cell 'PmodDemo_i/PmodSD_0/inst/axi_quad_spi_sd/U0'
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_PmodSD_0_0/src/PmodSD_axi_quad_spi_0_0/PmodSD_axi_quad_spi_0_0_board.xdc] for cell 'PmodDemo_i/PmodSD_0/inst/axi_quad_spi_sd/U0'
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_PmodSD_0_0/src/PmodSD_axi_quad_spi_0_0/PmodSD_axi_quad_spi_0_0.xdc] for cell 'PmodDemo_i/PmodSD_0/inst/axi_quad_spi_sd/U0'
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_PmodSD_0_0/src/PmodSD_axi_quad_spi_0_0/PmodSD_axi_quad_spi_0_0.xdc] for cell 'PmodDemo_i/PmodSD_0/inst/axi_quad_spi_sd/U0'
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_PmodSD_0_0/src/PmodSD_axi_gpio_0_0/PmodSD_axi_gpio_0_0_board.xdc] for cell 'PmodDemo_i/PmodSD_0/inst/axi_gpio_sdcs/U0'
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_PmodSD_0_0/src/PmodSD_axi_gpio_0_0/PmodSD_axi_gpio_0_0_board.xdc] for cell 'PmodDemo_i/PmodSD_0/inst/axi_gpio_sdcs/U0'
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_PmodSD_0_0/src/PmodSD_axi_gpio_0_0/PmodSD_axi_gpio_0_0.xdc] for cell 'PmodDemo_i/PmodSD_0/inst/axi_gpio_sdcs/U0'
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_PmodSD_0_0/src/PmodSD_axi_gpio_0_0/PmodSD_axi_gpio_0_0.xdc] for cell 'PmodDemo_i/PmodSD_0/inst/axi_gpio_sdcs/U0'
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_PmodSD_0_0/PmodDemo_PmodSD_0_0_board.xdc] for cell 'PmodDemo_i/PmodSD_0/inst'
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'BOARD_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_PmodSD_0_0/PmodDemo_PmodSD_0_0_board.xdc:7]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'BOARD_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_PmodSD_0_0/PmodDemo_PmodSD_0_0_board.xdc:8]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'BOARD_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_PmodSD_0_0/PmodDemo_PmodSD_0_0_board.xdc:9]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'BOARD_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_PmodSD_0_0/PmodDemo_PmodSD_0_0_board.xdc:10]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_PmodSD_0_0/PmodDemo_PmodSD_0_0_board.xdc] for cell 'PmodDemo_i/PmodSD_0/inst'
+Parsing XDC File [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.srcs/constrs_1/new/header.xdc]
+WARNING: [Vivado 12-584] No ports matched 'CLK100MHZ'. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.srcs/constrs_1/new/header.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.srcs/constrs_1/new/header.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CLK100MHZ'. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.srcs/constrs_1/new/header.xdc:9]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports CLK100MHZ]'. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.srcs/constrs_1/new/header.xdc:9]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'jc[0]'. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.srcs/constrs_1/new/header.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.srcs/constrs_1/new/header.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jc[1]'. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.srcs/constrs_1/new/header.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.srcs/constrs_1/new/header.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jc[2]'. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.srcs/constrs_1/new/header.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.srcs/constrs_1/new/header.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jc[3]'. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.srcs/constrs_1/new/header.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.srcs/constrs_1/new/header.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jc[4]'. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.srcs/constrs_1/new/header.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.srcs/constrs_1/new/header.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jc[5]'. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.srcs/constrs_1/new/header.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.srcs/constrs_1/new/header.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jc[6]'. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.srcs/constrs_1/new/header.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.srcs/constrs_1/new/header.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'jc[7]'. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.srcs/constrs_1/new/header.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.srcs/constrs_1/new/header.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.srcs/constrs_1/new/header.xdc]
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_us_0/PmodDemo_auto_us_0_clocks.xdc] for cell 'PmodDemo_i/microblaze_0_axi_periph/s00_couplers/auto_us/inst'
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_us_0/PmodDemo_auto_us_0_clocks.xdc] for cell 'PmodDemo_i/microblaze_0_axi_periph/s00_couplers/auto_us/inst'
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_us_1/PmodDemo_auto_us_1_clocks.xdc] for cell 'PmodDemo_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst'
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_us_1/PmodDemo_auto_us_1_clocks.xdc] for cell 'PmodDemo_i/microblaze_0_axi_periph/s01_couplers/auto_us/inst'
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_us_2/PmodDemo_auto_us_2_clocks.xdc] for cell 'PmodDemo_i/microblaze_0_axi_periph/s02_couplers/auto_us/inst'
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_us_2/PmodDemo_auto_us_2_clocks.xdc] for cell 'PmodDemo_i/microblaze_0_axi_periph/s02_couplers/auto_us/inst'
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_ds_0/PmodDemo_auto_ds_0_clocks.xdc] for cell 'PmodDemo_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst'
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_ds_0/PmodDemo_auto_ds_0_clocks.xdc] for cell 'PmodDemo_i/microblaze_0_axi_periph/m00_couplers/auto_ds/inst'
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_cc_0/PmodDemo_auto_cc_0_clocks.xdc] for cell 'PmodDemo_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst'
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_cc_0/PmodDemo_auto_cc_0_clocks.xdc] for cell 'PmodDemo_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst'
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_ds_1/PmodDemo_auto_ds_1_clocks.xdc] for cell 'PmodDemo_i/microblaze_0_axi_periph/m02_couplers/auto_ds/inst'
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_ds_1/PmodDemo_auto_ds_1_clocks.xdc] for cell 'PmodDemo_i/microblaze_0_axi_periph/m02_couplers/auto_ds/inst'
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_ds_2/PmodDemo_auto_ds_2_clocks.xdc] for cell 'PmodDemo_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst'
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_ds_2/PmodDemo_auto_ds_2_clocks.xdc] for cell 'PmodDemo_i/microblaze_0_axi_periph/m03_couplers/auto_ds/inst'
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_ds_3/PmodDemo_auto_ds_3_clocks.xdc] for cell 'PmodDemo_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst'
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_auto_ds_3/PmodDemo_auto_ds_3_clocks.xdc] for cell 'PmodDemo_i/microblaze_0_axi_periph/m04_couplers/auto_ds/inst'
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_microblaze_0_axi_intc_0/PmodDemo_microblaze_0_axi_intc_0_clocks.xdc] for cell 'PmodDemo_i/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_microblaze_0_axi_intc_0/PmodDemo_microblaze_0_axi_intc_0_clocks.xdc] for cell 'PmodDemo_i/microblaze_0_axi_intc/U0'
+Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_PmodSD_0_0/src/PmodSD_axi_quad_spi_0_0/PmodSD_axi_quad_spi_0_0_clocks.xdc] for cell 'PmodDemo_i/PmodSD_0/inst/axi_quad_spi_sd/U0'
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_ports -scoped_to_current_instance ext_spi_clk]'. [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_PmodSD_0_0/src/PmodSD_axi_quad_spi_0_0/PmodSD_axi_quad_spi_0_0_clocks.xdc:51]
+Resolution: Verify the create_clock command was called to create the clock object before it is referenced.
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_PmodSD_0_0/src/PmodSD_axi_quad_spi_0_0/PmodSD_axi_quad_spi_0_0_clocks.xdc:51]
+Finished Parsing XDC File [c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_PmodSD_0_0/src/PmodSD_axi_quad_spi_0_0/PmodSD_axi_quad_spi_0_0_clocks.xdc] for cell 'PmodDemo_i/PmodSD_0/inst/axi_quad_spi_sd/U0'
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: PmodDemo_i/PmodSD_0/inst/axi_quad_spi_sd/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: PmodDemo_i/PmodSD_0/inst/axi_quad_spi_sd/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: PmodDemo_i/PmodSD_0/inst/axi_quad_spi_sd/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: PmodDemo_i/PmodSD_0/inst/axi_quad_spi_sd/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: PmodDemo_i/PmodSD_0/inst/axi_quad_spi_sd/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: PmodDemo_i/PmodSD_0/inst/axi_quad_spi_sd/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: PmodDemo_i/PmodSD_0/inst/axi_quad_spi_sd/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: PmodDemo_i/PmodSD_0/inst/axi_quad_spi_sd/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+INFO: [Project 1-1715] 5 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Generating merged BMM file for the design top 'PmodDemo_wrapper'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: c:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.gen/sources_1/bd/PmodDemo/ip/PmodDemo_microblaze_0_0/data/mb_bootloop_le.elf 
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 1659.383 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 417 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 8 instances
+  IOBUFDS_INTERMDISABLE => IOBUFDS_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT(x2), INV, OBUFTDS(x2)): 2 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 16 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 64 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS(x2)): 1 instance 
+  RAM16X1D => RAM32X1D (RAMD32(x2)): 32 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 262 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 32 instances
+
+44 Infos, 20 Warnings, 14 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:54 ; elapsed = 00:00:58 . Memory (MB): peak = 1659.383 ; gain = 643.703
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1659.383 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 27875f8ff
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1659.383 ; gain = 0.000
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 5 inverter(s) to 9 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 16eda6274
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1841.777 ; gain = 1.012
+INFO: [Opt 31-389] Phase Retarget created 80 cells and removed 224 cells
+INFO: [Opt 31-1021] In phase Retarget, 150 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 143 inverter(s) to 210 load pin(s).
+Phase 2 Constant propagation | Checksum: 1a2a5a1de
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1841.777 ; gain = 1.012
+INFO: [Opt 31-389] Phase Constant propagation created 1807 cells and removed 6270 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 128 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 190f201d5
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 1841.777 ; gain = 1.012
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 3672 cells
+INFO: [Opt 31-1021] In phase Sweep, 536 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-194] Inserted BUFG PmodDemo_i/mdm_1/U0/Use_E2.BSCAN_I/Dbg_Update_0_BUFG_inst to drive 40 load(s) on clock net PmodDemo_i/mdm_1/U0/Use_E2.BSCAN_I/Dbg_Update_0_BUFG
+INFO: [Opt 31-193] Inserted 1 BUFG(s) on clock nets
+Phase 4 BUFG optimization | Checksum: 1dc4ee8cc
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1841.777 ; gain = 1.012
+INFO: [Opt 31-662] Phase BUFG optimization created 1 cells of which 1 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 1dc4ee8cc
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1841.777 ; gain = 1.012
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 203107d32
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1841.777 ; gain = 1.012
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 178 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |              80  |             224  |                                            150  |
+|  Constant propagation         |            1807  |            6270  |                                            128  |
+|  Sweep                        |               0  |            3672  |                                            536  |
+|  BUFG optimization            |               1  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                            178  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.117 . Memory (MB): peak = 1841.777 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 189eb54b9
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:13 . Memory (MB): peak = 1841.777 ; gain = 1.012
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 18 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 4 WE to EN ports
+Number of BRAM Ports augmented: 8 newly gated: 8 Total Ports: 36
+Ending PowerOpt Patch Enables Task | Checksum: 116ffceeb
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.307 . Memory (MB): peak = 2120.926 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 116ffceeb
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:12 . Memory (MB): peak = 2120.926 ; gain = 279.148
+
+Starting Final Cleanup Task
+
+Starting Logic Optimization Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Logic Optimization Task | Checksum: 22ab72bff
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 2120.926 ; gain = 0.000
+Ending Final Cleanup Task | Checksum: 22ab72bff
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2120.926 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 2120.926 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 22ab72bff
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 2120.926 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+73 Infos, 20 Warnings, 14 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:56 ; elapsed = 00:00:41 . Memory (MB): peak = 2120.926 ; gain = 461.543
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.185 . Memory (MB): peak = 2120.926 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.runs/impl_1/PmodDemo_wrapper_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:20 ; elapsed = 00:00:13 . Memory (MB): peak = 2120.926 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file PmodDemo_wrapper_drc_opted.rpt -pb PmodDemo_wrapper_drc_opted.pb -rpx PmodDemo_wrapper_drc_opted.rpx
+Command: report_drc -file PmodDemo_wrapper_drc_opted.rpt -pb PmodDemo_wrapper_drc_opted.pb -rpx PmodDemo_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.runs/impl_1/PmodDemo_wrapper_drc_opted.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 2120.926 ; gain = 0.000
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 2120.926 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 16415eae3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.058 . Memory (MB): peak = 2120.926 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 2120.926 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+ERROR: [Place 30-172] Sub-optimal placement for a clock-capable IO pin and PLL pair. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.
+	< set_property CLOCK_DEDICATED_ROUTE BACKBONE [get_nets sys_clk_i_IBUF] >
+
+	sys_clk_i_IBUF_inst (IBUF.O) is provisionally placed by clockplacer on IOB_X0Y104
+	PmodDemo_i/mig_7series_0/u_PmodDemo_mig_7series_0_0_mig/u_ddr3_infrastructure/plle2_i (PLLE2_ADV.CLKIN1) is locked to PLLE2_ADV_X1Y1
+
+	The above error could possibly be related to other connected instances. Following is a list of 
+	all the related clock rules and their respective instances.
+
+	Clock Rule: rule_mmcm_bufg
+	Status: PASS 
+	Rule Description: An MMCM driving a BUFG must be placed on the same half side (top/bottom) of the device
+	PmodDemo_i/mig_7series_0/u_PmodDemo_mig_7series_0_0_mig/u_ddr3_infrastructure/gen_mmcm.mmcm_i (MMCME2_ADV.CLKFBOUT) is locked to MMCME2_ADV_X1Y1
+	PmodDemo_i/mig_7series_0/u_PmodDemo_mig_7series_0_0_mig/u_ddr3_infrastructure/u_bufg_clkdiv0 (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0
+
+	Clock Rule: rule_bufh_bufr_ramb
+	Status: PASS 
+	Rule Description: Reginal buffers in the same clock region must drive a total number of brams less
+	than the capacity of the region
+	PmodDemo_i/mig_7series_0/u_PmodDemo_mig_7series_0_0_mig/u_ddr3_infrastructure/u_bufh_pll_clk3 (BUFH.O) is provisionally placed by clockplacer on BUFHCE_X1Y19
+
+	Clock Rule: rule_bufhce_mmcm
+	Status: PASS 
+	Rule Description: A BUFH driving an MMCM must both be in the same clock region
+	PmodDemo_i/mig_7series_0/u_PmodDemo_mig_7series_0_0_mig/u_ddr3_infrastructure/u_bufh_pll_clk3 (BUFH.O) is provisionally placed by clockplacer on BUFHCE_X1Y19
+	PmodDemo_i/mig_7series_0/u_PmodDemo_mig_7series_0_0_mig/u_ddr3_infrastructure/gen_mmcm.mmcm_i (MMCME2_ADV.CLKIN1) is locked to MMCME2_ADV_X1Y1
+
+	Clock Rule: rule_pll_bufhce
+	Status: PASS 
+	Rule Description: A PLL driving a BUFH must both be in the same horizontal row (clockregion-wise)
+	PmodDemo_i/mig_7series_0/u_PmodDemo_mig_7series_0_0_mig/u_ddr3_infrastructure/plle2_i (PLLE2_ADV.CLKOUT3) is locked to PLLE2_ADV_X1Y1
+	PmodDemo_i/mig_7series_0/u_PmodDemo_mig_7series_0_0_mig/u_ddr3_infrastructure/u_bufh_pll_clk3 (BUFH.I) is provisionally placed by clockplacer on BUFHCE_X1Y19
+
+Resolution: A dedicated routing path between the two can be used if: (a) The clock-capable IO (CCIO) is placed on a CCIO capable site (b) The PLL is placed in the same clock region as the CCIO pin. Both the above conditions must be met at the same time, else it may lead to longer and less predictable clock insertion delays.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 9c824a16
+
+Time (s): cpu = 00:09:52 ; elapsed = 00:09:53 . Memory (MB): peak = 2120.926 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 9c824a16
+
+Time (s): cpu = 00:09:52 ; elapsed = 00:09:53 . Memory (MB): peak = 2120.926 ; gain = 0.000
+ERROR: [Place 30-99] Placer failed with error: 'IO Clock Placer failed'
+Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.
+Ending Placer Task | Checksum: f8628c58
+
+Time (s): cpu = 00:09:52 ; elapsed = 00:09:53 . Memory (MB): peak = 2120.926 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+89 Infos, 20 Warnings, 14 Critical Warnings and 3 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Tue Jul  6 10:21:11 2021...

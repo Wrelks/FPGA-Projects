@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1625590108">
+  <File Type="PA-TCL" Name="PmodDemo_wrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="PmodDemo_wrapper_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="PmodDemo_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="PmodDemo_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="PmodDemo_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="PmodDemo_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="PmodDemo_wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="PmodDemo_wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="PmodDemo_wrapper_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/PmodDemo/PmodDemo.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/PmodDemo/hdl/PmodDemo_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/PmodDemo/ip/PmodDemo_mig_7series_0_0/board.prj">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="ScopedToCell" Val="PmodDemo_mig_7series_0_0"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="PmodDemo_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/header.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_auto_pc_4"/>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_auto_us_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_microblaze_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_auto_pc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_auto_pc_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_ilmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_auto_pc_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_auto_ds_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_PmodSD_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_mdm_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_auto_ds_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_auto_cc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_auto_us_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_rst_clk_wiz_0_100M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_auto_ds_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_microblaze_0_axi_intc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_ilmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_auto_ds_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_auto_pc_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_clk_wiz_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_dlmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_rst_mig_7series_0_83M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_auto_us_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_axi_uartlite_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_dlmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_mig_7series_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_reset_inv_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="PmodDemo_lmb_bram_0"/>
+</GenRun>

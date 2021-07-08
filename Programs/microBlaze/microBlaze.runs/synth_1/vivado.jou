@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jul  6 10:07:34 2021
+# Process ID: 10480
+# Current directory: C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.runs/synth_1
+# Command line: vivado.exe -log PmodDemo_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source PmodDemo_wrapper.tcl
+# Log file: C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.runs/synth_1/PmodDemo_wrapper.vds
+# Journal file: C:/Users/micro/OneDrive/Documents/GitHub/FPGA-Projects/Programs/microBlaze/microBlaze.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source PmodDemo_wrapper.tcl -notrace
