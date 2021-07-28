@@ -1,7 +1,7 @@
 # FPGA Projects
  My Personal FPGA Projects. Feel free to use as learning material. 
 
-###3D Arrays
+### 3D Arrays
 ```Systemverilog
 `timescale 1ns / 1ps
 
