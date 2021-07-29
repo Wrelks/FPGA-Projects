@@ -80,3 +80,61 @@ module top #(
 endmodule
 
 ```
+
+### Adjustable Timer and Concat example
+```Systemverilog
+`timescale 1ns / 1ps
+
+module top #(
+    parameter wordSize = 4,
+    parameter xSize = 4,
+    parameter ySize = 4,
+    parameter zSize = 4
+    )
+    (
+    input wire logic [15:0] dip,
+    input wire logic [3:0] btn, sw,
+    output     logic [23:0] outWire,
+    output     logic [3:0] led,
+    input      logic CLK100MHZ
+    );
+    
+    localparam DIV_BY = 27'd100_000_000;  // 100 million
+    logic [31:0] freq = DIV_BY / dip[15:0];
+
+    logic stb;
+    logic [26:0] i = 0;
+    always_ff @(posedge CLK100MHZ) begin
+    
+    /*
+    if(dip[15:0] == 0) begin //prevent divide by zero error
+        freq[31:0] = DIV_BY;
+    end
+    */
+        if (i != freq-1) begin
+            stb <= 0;
+            i <= i + 1;
+        end else begin
+            stb <= 1;
+            i <= 0;
+        end
+    end
+    
+    logic [1:0] store = 0;
+    always_ff @(posedge stb) begin
+        if(store == 0) begin
+            led[3:0] <= 4'b1111;
+            store = 1;
+        end else if (store == 1) begin
+            led[3:0] <= 4'b0000;
+            store = 0;
+        end
+    end
+    
+    logic [3:0] e = 4'b1000;
+    logic [3:0] b = 4'b0001;
+    assign outWire[23:0] = {e, b}; //e_b or 1000_0001
+    
+endmodule
+
+```
